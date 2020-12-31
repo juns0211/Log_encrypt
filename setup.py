@@ -3,8 +3,8 @@ from setuptools import setup
 
 setup(
     url='',
-    name='log_encrypt',
-    version='1.0.1',
+    name='logencrypt',
+    version='1.0.2',
     description='log加密',
     author='juns',
     author_email='mailkill2000@gmail.com',
