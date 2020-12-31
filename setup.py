@@ -4,7 +4,7 @@ from setuptools import setup
 setup(
     url='',
     name='log_encrypt',
-    version='1.0.0',
+    version='1.0.1',
     description='log加密',
     author='juns',
     author_email='mailkill2000@gmail.com',
