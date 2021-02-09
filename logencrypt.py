@@ -25,7 +25,7 @@ def log_decryptor(key, log, path:str):
     for i in log:
         if not i.strip():
             continue
-        time_level,stream = i.split('//Cut//', 1)
+        time_level, stream = i.split('//Cut//', 1)
         cryptor = AES.new(key, AES.MODE_CFB, key[:16])
         data = base64.b64decode(stream)
         data = cryptor.decrypt(data).decode()
